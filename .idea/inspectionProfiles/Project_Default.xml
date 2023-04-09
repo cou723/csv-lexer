@@ -1,0 +1,15 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="ClangTidy" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="clangTidyCheckOptions">
+        <list>
+          <ClangTidyCheckOption>
+            <option name="optionName" value="-config" />
+            <option name="optionValue" value="{Checks: &quot;*,-modernize-use-trailing-return-type&quot;, CheckOptions:[{key: modernize-use-trailing-return-type.WarnOnTrailingReturnType, value: 0}]}" />
+          </ClangTidyCheckOption>
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
